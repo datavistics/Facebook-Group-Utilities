@@ -230,7 +230,6 @@ def get_comments_from_date(auth, input_date):
 
 if __name__ == '__main__':
     import os
-    from joblib import Parallel, delayed
 
     # Get authentication information
     with open('authentication.json') as file:
